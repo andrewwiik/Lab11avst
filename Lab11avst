@@ -24,9 +24,25 @@ public class Lab11avst
 		System.out.println("\nCOMPUTING PRIME NUMBERS");
 		int list[];             			
 		list = new int[MAX];
+		int butt;
 		for (int index = 0; index <=MAX; index++)
 			list[index] = index;
-		if (index )
+		for (int index = 0; index <=MAX; index++)
+		for (int index: list) {
+		butt = index;
+
+			for (int index: list) {
+			int what = butt/index
+
+		if(floor(what) == what) {
+   		System.out.printLn("Holy Crap");
+		} else {
+ 
+		}
+		}	
+		}
+ 
+		
 			
 			
 		
@@ -37,10 +53,10 @@ public class Lab11avst
 	{
 		System.out.println("\n\nPRIMES BETWEEN 1 AND "+ primes.length);
 		System.out.println();
+		
 
 	}
 
 }
-
 
 
